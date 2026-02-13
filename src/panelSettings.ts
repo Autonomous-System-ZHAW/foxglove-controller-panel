@@ -1,4 +1,4 @@
-import { Topic, SettingsTreeNodes, SettingsTreeFields, SettingsTreeAction } from "@foxglove/studio";
+import { Topic, SettingsTreeNodes, SettingsTreeFields, SettingsTreeAction } from "@foxglove/extension";
 import { produce } from "immer";
 import * as _ from "lodash-es";
 

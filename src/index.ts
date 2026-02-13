@@ -1,7 +1,9 @@
-import { ExtensionContext } from "@foxglove/studio";
-
-import { initJoyPanel } from "./JoyPanel";
+import { ExtensionContext } from "@foxglove/extension";
+import { initControllerPanel } from "./ControllerPanel";
 
 export function activate(extensionContext: ExtensionContext): void {
-  extensionContext.registerPanel({ name: "Joystick", initPanel: initJoyPanel });
+  extensionContext.registerPanel({
+    name: "Controller",
+    initPanel: initControllerPanel,
+  });
 }

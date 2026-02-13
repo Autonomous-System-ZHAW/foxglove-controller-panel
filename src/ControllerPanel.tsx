@@ -5,7 +5,7 @@ import {
   PanelExtensionContext,
   Topic,
   SettingsTreeAction,
-} from "@foxglove/studio";
+} from "@foxglove/extension";
 import { FormGroup, FormControlLabel, Switch } from "@mui/material";
 import { useEffect, useLayoutEffect, useState, useCallback, useRef } from "react";
 import ReactDOM from "react-dom";
@@ -25,7 +25,7 @@ type KbMap = {
   value: number;
 };
 
-function JoyPanel({ context }: { context: PanelExtensionContext }): JSX.Element {
+function ControllerPanel({ context }: { context: PanelExtensionContext }): JSX.Element {
   const [topics, setTopics] = useState<undefined | Immutable<Topic[]>>();
   const [messages, setMessages] = useState<undefined | Immutable<MessageEvent[]>>();
   const [joy, setJoy] = useState<Joy | undefined>();
@@ -357,8 +357,8 @@ function JoyPanel({ context }: { context: PanelExtensionContext }): JSX.Element 
   );
 }
 
-export function initJoyPanel(context: PanelExtensionContext): () => void {
-  ReactDOM.render(<JoyPanel context={context} />, context.panelElement);
+export function initControllerPanel(context: PanelExtensionContext): () => void {
+  ReactDOM.render(<ControllerPanel context={context} />, context.panelElement);
 
   // Return a function to run when the panel is removed
   return () => {
