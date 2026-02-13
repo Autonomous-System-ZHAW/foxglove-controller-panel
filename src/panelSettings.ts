@@ -36,14 +36,6 @@ export function buildSettingsTree(config: Config, topics?: readonly Topic[]): Se
           value: "sub-joy-topic",
         },
         {
-          label: "Gamepad",
-          value: "gamepad",
-        },
-        {
-          label: "Interactive",
-          value: "interactive",
-        },
-        {
           label: "Keyboard",
           value: "keyboard",
         },
@@ -144,21 +136,9 @@ export function buildSettingsTree(config: Config, topics?: readonly Topic[]): Se
       value: config.layoutName,
       options: [
         {
-          label: "Steam Deck",
-          value: "steamdeck",
-        },
-        {
-          label: "iPega PG-9083s",
-          value: "ipega-9083s",
-        },
-        {
-          label: "Xbox",
-          value: "xbox",
-        },
-        {
-          label: "Cheap Controller",
-          value: "cheapo",
-        },
+          label: "Dual Shock PS5",
+          value: "dual-shock-PS5",
+        }
       ],
     },
 

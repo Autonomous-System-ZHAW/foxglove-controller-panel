@@ -16,7 +16,7 @@
     "local-install": "foxglove-extension install",
     "package": "foxglove-extension package",
     "pretest": "foxglove-extension pretest",
-    "watch": "chokidar \"src/**/*\" -c \"npm run build && npm run local-install\""
+    "watch": "chokidar \"src/**/*\" -c \"npm.cmd run build && npm.cmd run local-install\""
   },
   "devDependencies": {
     "@foxglove/eslint-plugin": "1.0.1",
