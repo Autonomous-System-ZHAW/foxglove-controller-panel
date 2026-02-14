@@ -40,21 +40,12 @@ Panel](https://github.com/user-attachments/assets/9ac43ed2-d8fb-4417-b7ae-ec8416
 1.  Open the Foxglove Studio Desktop App\
 2.  Click the profile menu (top right)\
 3.  Go to **Extensions**\
-4.  Search for the Joystick panel\
-5.  Install the extension
+4.  Search for the Controller panel\
+5.  Add the extension
 
 ------------------------------------------------------------------------
 
-### Option 2 -- Install from Release
-
-1.  Download the latest `.foxe` file from:\
-    https://github.com/joshnewans/foxglove-joystick/releases/latest\
-2.  Drag and drop the file into the Foxglove Studio window (Desktop or
-    Web).
-
-------------------------------------------------------------------------
-
-### Option 3 -- Build from Source
+### Option 2 -- Build from Source
 
 #### Requirements
 
