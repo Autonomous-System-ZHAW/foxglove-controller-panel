@@ -3,9 +3,15 @@
 
   "include": ["./src/**/*"],
   "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
     "rootDir": "./src",
     "outDir": "./dist",
     "lib": ["dom"],
+  
+    "paths": {
+      "@/*": ["./*"]
+    },
 
     // These two settings prevent typescript from emitting .d.ts files we don't need in
     // the compiled extension.
@@ -16,11 +22,11 @@
     // Enable/disable these checks as necessary to suit your coding preferences or work with
     // existing code
     "noFallthroughCasesInSwitch": true,
-    // "noImplicitAny": true,
+    "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUncheckedIndexedAccess": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "forceConsistentCasingInFileNames": true
-  }
+  },
 }
