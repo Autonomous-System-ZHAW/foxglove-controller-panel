@@ -22,7 +22,7 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 	"mounts": [
-    "source=C:/Users/tommy/.foxglove-studio/extensions,target=/home/node/.foxglove-studio/extensions,type=bind"
+    "source=C:/Users/kaey/.foxglove-studio/extensions,target=/home/node/.foxglove-studio/extensions,type=bind"
 	],
 	"runArgs": [
 		"--network=host"
