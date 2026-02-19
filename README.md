@@ -28,8 +28,8 @@ It allows you to:
 
 ## Example Panel
 
-![Joystick
-Panel](https://github.com/user-attachments/assets/9ac43ed2-d8fb-4417-b7ae-ec8416eda732)
+<img width="820" height="340" alt="image" src="https://github.com/user-attachments/assets/a830c395-ee5a-4202-91c0-e7dea45f8280" />
+
 
 ------------------------------------------------------------------------
 
