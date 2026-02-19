@@ -1,10 +1,10 @@
 {
-  "name": "joy-panel",
-  "displayName": "Joystick Panel",
+  "name": "controller-panel",
+  "displayName": "Controller Panel",
   "description": "Foxglove panel extension for joystick/gamepad control.",
-  "publisher": "Josh Newans",
+  "publisher": "Tommy Lee Kaelin",
   "homepage": "",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "./dist/extension.js",
   "keywords": [],
@@ -16,7 +16,7 @@
     "local-install": "foxglove-extension install",
     "package": "foxglove-extension package",
     "pretest": "foxglove-extension pretest",
-    "watch": "chokidar \"src/**/*\" -c \"npm run build && npm run local-install\""
+    "watch": "chokidar \"src/**/*\" -c \"npm.cmd run build && npm.cmd run local-install\""
   },
   "devDependencies": {
     "@foxglove/eslint-plugin": "1.0.1",
